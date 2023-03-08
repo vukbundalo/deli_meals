@@ -12,6 +12,7 @@ class Categories extends StatelessWidget {
         title: Text('DeliMeals'),
       ),
       body: GridView(
+          padding: EdgeInsets.all(15),
           children: [
             ...DUMMY_CATEGORIES.map((catData) {
               return CategoryItem(title: catData.title, color: catData.color);
