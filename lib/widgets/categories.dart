@@ -15,7 +15,11 @@ class Categories extends StatelessWidget {
           padding: EdgeInsets.all(15),
           children: [
             ...DUMMY_CATEGORIES.map((catData) {
-              return CategoryItem(title: catData.title, color: catData.color);
+              return CategoryItem(
+                title: catData.title,
+                color: catData.color,
+                id: catData.id,
+              );
             }).toList(),
           ],
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
