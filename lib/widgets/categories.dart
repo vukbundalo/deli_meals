@@ -1,6 +1,7 @@
+import 'package:flutter/material.dart';
+
 import 'package:deli_meals/dummy_data.dart';
 import 'package:deli_meals/widgets/category_item.dart';
-import 'package:flutter/material.dart';
 
 class Categories extends StatelessWidget {
   const Categories({super.key});
